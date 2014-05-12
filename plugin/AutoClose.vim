@@ -451,7 +451,7 @@ endfunction
 
 function! s:CreateExtraMaps()
     " Extra mapping
-    inoremap <buffer> <silent> <BS>         <C-R>=<SID>Backspace()<CR>
+    "inoremap <buffer> <silent> <BS>         <C-R>=<SID>Backspace()<CR>
     inoremap <buffer> <silent> <Del>        <C-R>=<SID>Delete()<CR>
     if b:AutoCloseExpandSpace
         inoremap <buffer> <silent> <Space>      <C-R>=<SID>Space()<CR>
